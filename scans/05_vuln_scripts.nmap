@@ -1,0 +1,15 @@
+# Nmap 7.95 scan initiated Thu Aug 20 06:51:07 2026 as: /usr/lib/nmap/nmap --script vuln -oA scans/05_vuln_scripts 192.168.100.86
+Pre-scan script results:
+| broadcast-avahi-dos: 
+|   Discovered hosts:
+|     224.0.0.251
+|   After NULL UDP avahi packet DoS (CVE-2011-1002).
+|_  Hosts are all up (not vulnerable).
+Nmap scan report for 192.168.100.86
+Host is up (0.0012s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+22/tcp open  ssh
+MAC Address: 08:00:27:AF:B5:BD (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+
+# Nmap done at Thu Aug 20 06:51:50 2026 -- 1 IP address (1 host up) scanned in 42.69 seconds

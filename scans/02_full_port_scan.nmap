@@ -1,0 +1,9 @@
+# Nmap 7.95 scan initiated Thu Aug 20 06:45:06 2026 as: /usr/lib/nmap/nmap -p- -oA scans/02_full_port_scan 192.168.100.86
+Nmap scan report for 192.168.100.86
+Host is up (0.0012s latency).
+Not shown: 65534 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+22/tcp open  ssh
+MAC Address: 08:00:27:AF:B5:BD (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+
+# Nmap done at Thu Aug 20 06:46:51 2026 -- 1 IP address (1 host up) scanned in 105.29 seconds

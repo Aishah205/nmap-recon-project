@@ -1,0 +1,4 @@
+# Nmap 7.95 scan initiated Thu Aug 20 06:50:27 2026 as: /usr/lib/nmap/nmap -O -oA scans/04_os_fingerprint 192.168.100.86
+Host: 192.168.100.86 ()	Status: Up
+Host: 192.168.100.86 ()	Ports: 22/open/tcp//ssh///	Ignored State: filtered (999)	Seq Index: 255	IP ID Seq: All zeros
+# Nmap done at Thu Aug 20 06:50:35 2026 -- 1 IP address (1 host up) scanned in 9.19 seconds

@@ -1,0 +1,17 @@
+# Nmap 7.95 scan initiated Thu Aug 20 06:50:27 2026 as: /usr/lib/nmap/nmap -O -oA scans/04_os_fingerprint 192.168.100.86
+Nmap scan report for 192.168.100.86
+Host is up (0.00095s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+22/tcp open  ssh
+MAC Address: 08:00:27:AF:B5:BD (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|router|storage-misc
+Running (JUST GUESSING): Linux 4.X|5.X|6.X|2.6.X|3.X (97%), MikroTik RouterOS 7.X (95%), Synology DiskStation Manager 5.X (91%)
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5 cpe:/o:mikrotik:routeros:7 cpe:/o:linux:linux_kernel:5.6.3 cpe:/o:linux:linux_kernel:6.0 cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3 cpe:/a:synology:diskstation_manager:5.2
+Aggressive OS guesses: Linux 4.15 - 5.19 (97%), Linux 5.0 - 5.14 (97%), Linux 4.19 (95%), OpenWrt 21.02 (Linux 5.4) (95%), MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3) (95%), Linux 6.0 (94%), Linux 2.6.32 - 3.13 (91%), Linux 3.2 - 4.14 (91%), Synology DiskStation Manager 5.2-5644 (91%), Linux 2.6.32 - 3.10 (90%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Aug 20 06:50:35 2026 -- 1 IP address (1 host up) scanned in 9.19 seconds
