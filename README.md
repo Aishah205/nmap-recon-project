@@ -38,7 +38,7 @@ nmap-recon-project/
 Each scan set includes `.nmap` (human-readable), `.xml`, and `.gnmap` output formats.
 
 ## Key Result
-Out of 65,535 ports scanned, only 3 were open: FTP (21), SSH (22), and HTTP (80). Automated vulnerability scanning flagged numerous CVEs against these services based on banner version strings — but direct package inspection (`dpkg`, `apt-cache policy`) revealed the actual installed packages were newer than the banners suggested, meaning most flagged CVEs were likely false positives. Full analysis in [`findings.md`](./findings.md).
+Out of 65,535 ports scanned, only 3 were open: FTP (21), SSH (22), and HTTP (80). Automated vulnerability scanning flagged numerous CVEs against these services based on banner version strings, but direct package inspection (`dpkg`, `apt-cache policy`) revealed the actual installed packages were newer than the banners suggested, meaning most flagged CVEs were likely false positives. Full analysis in [`findings.md`](./findings.md).
 
 ## Tools Used
 - Nmap 7.95 (including NSE scripts: `vuln`, `vulners`, default `-sC` scripts)
