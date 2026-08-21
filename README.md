@@ -1,6 +1,6 @@
 # Nmap Network Reconnaissance & Enumeration Project
 
-A hands-on lab project demonstrating the network reconnaissance and enumeration phase of a penetration test — using Nmap to discover hosts, identify services, fingerprint the OS, scan for vulnerabilities, and test evasion techniques against a controlled target.
+A hands-on lab project demonstrating the network reconnaissance and enumeration phase of a penetration test, using Nmap to discover hosts, identify services, fingerprint the OS, scan for vulnerabilities, and test evasion techniques against a controlled target.
 
 ## ⚠️ Scope & Ethics
 All scans in this repository were run against a private, isolated lab VM (Ubuntu Server) that I own and configured myself. No external, third-party, or production systems were scanned. This project is for educational and skill-building purposes only.
