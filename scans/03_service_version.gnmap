@@ -1,4 +1,4 @@
-# Nmap 7.95 scan initiated Thu Aug 20 06:49:52 2026 as: /usr/lib/nmap/nmap -sV -sC -oA scans/03_service_version 192.168.100.86
+# Nmap 7.95 scan initiated Fri Aug 21 02:43:49 2026 as: /usr/lib/nmap/nmap -sV -sC -oA scans/03_service_version 192.168.100.86
 Host: 192.168.100.86 ()	Status: Up
-Host: 192.168.100.86 ()	Ports: 22/open/tcp//ssh//OpenSSH 9.6p1 Ubuntu 3ubuntu13.18 (Ubuntu Linux; protocol 2.0)/	Ignored State: filtered (999)
-# Nmap done at Thu Aug 20 06:50:03 2026 -- 1 IP address (1 host up) scanned in 11.13 seconds
+Host: 192.168.100.86 ()	Ports: 21/open/tcp//ftp//vsftpd 3.0.5/, 22/open/tcp//ssh//OpenSSH 9.6p1 Ubuntu 3ubuntu13.18 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.58 ((Ubuntu))/	Ignored State: filtered (997)
+# Nmap done at Fri Aug 21 02:44:20 2026 -- 1 IP address (1 host up) scanned in 30.59 seconds
